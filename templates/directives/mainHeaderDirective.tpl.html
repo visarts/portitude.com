@@ -1,0 +1,30 @@
+<div class="container" data-ng-class="{ 'subnav' : currentLocation != '' }">
+  <div class="row">
+    <a href="#/"><img src="images/portMedia.jpg" class="logo" /></a>
+    <div class="g-ytsubscribe" data-channelid="UCxIERjAQBi-CPROrFLPR8yQ" data-layout="full" data-count="hidden"></div>
+  </div>
+  <div class="row">
+    <div class="tile_container">
+      <a href="#/audio" class="tile_body audio" data-ng-class="{ 'active' : currentLocation == 'audio' }">
+        <h2 class="tile_title">audio</h2>
+        <fa name="microphone" class="icon" size="5"></fa>
+        <div class="tile_desc">Providing voice work, radio ads, and more</div>
+      </a>
+      <a href="#/video" class="tile_body video" data-ng-class="{ 'active' : currentLocation == 'video' }">
+        <h2 class="tile_title">video</h2>
+        <fa name="video-camera" class="icon" size="5"></fa>
+        <div class="tile_desc">Video is our speciality. Real estate tours, commercials and more, at your service</div>
+      </a>
+      <a href="#/photo" class="tile_body photo" data-ng-class="{ 'active' : currentLocation == 'photo' }">
+        <h2 class="tile_title">photo<span data-ng-hide="currentLocation != ''">graphy</span></h2>
+        <fa name="camera" class="icon" size="5"></fa>
+        <div class="tile_desc">Years of experience in photography means high quality, and fast turnaround</div>
+      </a>
+      <a href="#/design" class="tile_body design" data-ng-class="{ 'active' : currentLocation == 'design' }">
+        <h2 class="tile_title">design</h2>
+        <fa name="cube" class="icon" size="5"></fa>
+        <div class="tile_desc">Digital and print, media lives on design. We do it best</div>
+      </a>
+    </div>
+  </div>
+</div>
